@@ -8,6 +8,7 @@ public class PwdUtils {
 		Encoder encoder = Base64.getEncoder();
 		byte[] encode = encoder.encode(pwd.getBytes());
 		String encodedPwd = new String(encode);
+		System.out.println("Password Encoder");
 		return encodedPwd;
 	}
 }
