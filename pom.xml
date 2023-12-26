@@ -6,7 +6,7 @@
     <groupId>in.ashokit</groupId>
     <artifactId>pwd-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pwd-service</name>
+    <name>pwd-service-app</name>
   
     <build>
         <finalName>pwd-service</finalName>
