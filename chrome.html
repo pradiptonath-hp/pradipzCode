@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Print Pradipto</title>
+</head>
+<body>
+  <div id="content">
+    <h1>Pradipto Nath</h1>
+    <button onclick="printContent()">Print</button>
+  </div>
+
+  <script>
+    function printContent() {
+      var content = document.getElementById("content").innerHTML;
+      var originalContent = document.body.innerHTML;
+      document.body.innerHTML = content;
+      window.print();
+      document.body.innerHTML = originalContent;
+    }
+  </script>
+</body>
+</html>
